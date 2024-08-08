@@ -11,7 +11,7 @@ int main()
 	{
 		for (int j = 0; j < strs[i].size(); ++j)
 		{
-			if (strs[i][j] < '9')
+			if (strs[i][j] <= '9')
 				result += strs[i][j];
 		}
 		num += std::stoi(result);
